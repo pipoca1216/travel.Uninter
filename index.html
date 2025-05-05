@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Jessica Farias</title>
+    <style>
+        body {
+            background-color: #aed3eb;
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+        h1 {
+            color: #1f364d;
+            text-align: center;
+        }
+        p {
+            font-size: 18px;
+            text-align: justify;
+            line-height: 1.6;
+        }
+        ul {
+            line-height: 2;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+            display: block;
+            margin: 20px auto;
+        }
+        table {
+            width: 84%;
+            border-collapse: collapse;
+            margin-top: 30px auto;
+        }
+        table, th, td {
+            border: 1px solid #999;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #ff6600;
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1a242f;
+        }
+        #mensagem {
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jessica Farias</h1>
+     <p>tenho 19 Anos, moro na chapada</p>
+     <p>Amo viajar e  praticar esportes</p>
+
+    <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+    <div id="mensagem"></div>
+
+    <ul>
+        <li>Viajar</li>
+        <li>Praia</li>
+        <li> Cachoeira </li>
+    </ul>
+
+    <img src="A2CDE7F0-527C-4952-A1C3-01CEB3EC3467.jpeg" alt="Praia" width="200">
+      <p>tenho sonho em viajar para esses paises</p>
+    <table>
+        <tr>
+            <th>País</th>
+            <th>Imagens</th>
+        </tr>
+        <tr>
+            <td>Peru 🇵🇪 </td>
+            <td><img src="c7cff76d-9821-4544-b140-c332dba0afd2.png" width="150"></td>
+        </tr>
+        <tr>
+            <td>EUA 🇺🇸</td>
+            <td><img src="c798147a-1890-4ed2-84c1-333e400351c9.png" width="150"></td>
+        </tr>
+        <tr>
+            <td>Suíça 🇨🇭</td>
+            <td><img src="762cf3-428d-4ced-b835-fef8e982751a.png" width="150"></td>
+        </tr>
+    </table>
+        <p> <center>melhor site para comprar viagens</p>
+    <p style="text-align: center; margin-top: 50px;">
+        <a href="https://www.viajanet.com.br" target="_blank">Visite a viajanet</a>
+    </p>
+
+    <script>
+        function mostrarMensagem() {
+            document.getElementById('mensagem').innerText = "Seja bem-vinda!🌟";
+        }
+    </script>
+</body>
+</html>
+
